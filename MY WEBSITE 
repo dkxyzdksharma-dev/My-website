@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DILKHUSH SHOP - Tools & Resources</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: linear-gradient(135deg, #000000, #1a1a1a); 
+            color: #ffffff; 
+            animation: shine 5s ease-in-out infinite alternate; 
+        }
+        @keyframes shine {
+            0% { background: linear-gradient(135deg, #000000, #1a1a1a); }
+            100% { background: linear-gradient(135deg, #1a1a1a, #000000); }
+        }
+        header { 
+            background-color: rgba(0, 0, 0, 0.8); 
+            color: #00ff00; 
+            text-align: center; 
+            padding: 1rem; 
+            border-bottom: 2px solid #00ff00; 
+            box-shadow: 0 0 10px #00ff00; 
+        }
+        nav { 
+            background-color: rgba(0, 0, 0, 0.9); 
+            padding: 0.5rem; 
+            text-align: center; 
+            border-bottom: 1px solid #00ff00; 
+        }
+        nav a { 
+            color: #00ff00; 
+            margin: 0 1rem; 
+            text-decoration: none; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #ffffff; 
+            text-shadow: 0 0 5px #00ff00; 
+        }
+        section { 
+            padding: 2rem; 
+            max-width: 1200px; 
+            margin: auto; 
+            background-color: rgba(0, 0, 0, 0.7); 
+            border-radius: 10px; 
+            margin-bottom: 1rem; 
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); 
+        }
+        .product { 
+            border: 1px solid #00ff00; 
+            padding: 1rem; 
+            margin: 1rem 0; 
+            background-color: rgba(0, 0, 0, 0.8); 
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3); 
+        }
+        footer { 
+            background-color: rgba(0, 0, 0, 0.9); 
+            color: #00ff00; 
+            text-align: center; 
+            padding: 1rem; 
+            border-top: 2px solid #00ff00; 
+            box-shadow: 0 0 10px #00ff00; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DILKHUSH SHOP</h1>
+        <p>Your trusted source for ethical hacking tools, courses, and resources.</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in providing legal and ethical hacking tools, training courses, and resources to help professionals and enthusiasts improve cybersecurity. All our offerings promote responsible hacking practices in compliance with laws and regulations.</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Kali Linux Bundle</h3>
+            <p>A comprehensive toolkit for penetration testing and ethical hacking. Includes pre-installed tools and guides.</p>
+            <p>Price: $49.99</p>
+        </div>
+        <div class="product">
+            <h3>Ethical Hacking Certification Course</h3>
+            <p>Online course covering fundamentals of ethical hacking, vulnerability assessment, and more.</p>
+            <p>Price: $199.99</p>
+        </div>
+        <div class="product">
+            <h3>Network Security Scanner</h3>
+            <p>Open-source tool for scanning networks ethically. Perfect for authorized security audits.</p>
+            <p>Price: $29.99</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: dilkhushforbusiness@gmail.com</p>
+        <p>Phone: +919350860838</p>
+        <p>Address: MADHEPURA BIHAR 852112</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 DILKHUSH SHOP. All rights reserved. Remember: Hack ethically and legally.</p>
+    </footer>
+    
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="YEDA YUNG.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
